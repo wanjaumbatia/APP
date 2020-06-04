@@ -10,7 +10,9 @@
                 </div>
             @endif
 
-            <div class="flex flex-col h-full break-words bg-white border border-2 rounded shadow-md">
+            <div class="container bg-blue-400">
+                
+            </div>
 
         </div>
     </div>

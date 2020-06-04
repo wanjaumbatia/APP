@@ -169,9 +169,10 @@
                     {{ Auth::user()->name }}
                 </header>
                     <ul>
-                        <li><a href="#"><i class="fas fa-link"></i>Dashboard</a></li>    
+                        <li><a href="/home"><i class="fas fa-link"></i>Dashboard</a></li>                           
+                        <li><a href="#"><i class="fas fa-link"></i>Company</a></li>   
                         <li><a href="#"><i class="fas fa-link"></i>Customers</a></li>  
-                        <li><a href="#"><i class="fas fa-link"></i>HR</a></li>  
+                        <li><a href="/hr"><i class="fas fa-link"></i>HR</a></li>  
                         <li><a href="#"><i class="fas fa-link"></i>Work</a></li>  
                         <li><a href="#"><i class="fas fa-link"></i>Finance</a></li>  
                         <li><a href="#"><i class="fas fa-link"></i>Products</a></li>  

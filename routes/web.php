@@ -29,3 +29,7 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function (){
     Route::resource('/admins','AdminsController', ['except' =>['show','create','store','edit','update','destroy']]);
     Route::resource('/users','UsersController', ['except' =>['show','create','store']]);
 });
+
+Route::get('/hr', function () {
+    return view('hr.index');
+});
