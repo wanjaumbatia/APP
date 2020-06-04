@@ -77,7 +77,7 @@
 
         label #btn {
             left: 40px;
-            top: 25px;
+            top: 5px;
             font-size: 35px;
             color: white;
             padding: 6px 12px;
